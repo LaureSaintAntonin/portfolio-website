@@ -16,13 +16,13 @@ const TAB_DATA = [
 		// Contenu qui sera affiché quand l'onglet "Skills" sera actif.
 		content: (
 			<ul className="list-disc pl-2">
-				<li>React.js // Nodes.js</li>
-				<li>Python // Django</li>
-				<li>SQL // MySQL // PostgreSQL // SQLite</li>
+				<li>React.js//Nodes.js</li>
+				<li>Python//Django</li>
+				<li>SQL//MySQL//PostgreSQL//SQLite</li>
 				<li>Kotlin</li>
-				<li>PHP // Laravel</li>
-				{/* <li></li>
-				<li></li> */}
+				<li>PHP//Laravel</li>
+				<li></li>
+				<li></li>
 			</ul>
 		),
 	},
