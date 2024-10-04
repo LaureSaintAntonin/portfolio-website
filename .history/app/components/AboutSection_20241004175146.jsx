@@ -34,7 +34,7 @@ const TAB_DATA = [
 				<li>
 					<a href="https://adatechschool.fr/" className="text-pink-500">
 						Ada Tech School
-					</a>
+					</a>{" "}
 					, mon centre de formation
 				</li>
 				<li>AFGSU 2</li>

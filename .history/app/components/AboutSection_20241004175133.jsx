@@ -33,9 +33,9 @@ const TAB_DATA = [
 			<ul className="list-disc pl-2">
 				<li>
 					<a href="https://adatechschool.fr/" className="text-pink-500">
-						Ada Tech School
-					</a>
-					, mon centre de formation
+						Ada Tech School,
+					</a>{" "}
+					mon centre de formation
 				</li>
 				<li>AFGSU 2</li>
 				<li>DP Organisateur Transport Multimodal International</li>

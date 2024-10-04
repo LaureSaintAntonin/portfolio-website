@@ -15,14 +15,14 @@ const projectsData = [
 			"Mon Portfolio réalisé avec React.js, TailwindCSS, Vercel pour le déploiement.",
 		image: "/images/projects/1.png",
 		tag: ["All", "Web"],
-		gitUrl: "https://github.com/LaureSaintAntonin/portfolio-website",
+		gitUrl: "/",
 		previewUrl: "/",
 	},
 	{
 		id: 2,
 		title: "Loventoutou",
 		description:
-			"Mon application de rencontre pour éleveurs canins 2.0 réalisé en Django 5(python)",
+			"Application de rencontre pour éleveurs canins 2.0 réalisé en Django 5(python)",
 		image: "/images/projects/tinderToutouLogo_v2.png",
 		tag: ["All", "Web"],
 		gitUrl: "https://github.com/LaureSaintAntonin/LovenToutou",
@@ -42,7 +42,7 @@ const projectsData = [
 		id: 4,
 		title: "Surf & Chill",
 		description:
-			"Mon application qui recense les meilleurs spots de surf du monde !",
+			"L'application qui recense les meilleurs spots de surf du monde !",
 		image: "/images/projects/maquettesurf_chill.png",
 		tag: ["All", "Mobile"],
 		gitUrl: "https://github.com/LaureSaintAntonin/Surf-Chill",
@@ -52,7 +52,7 @@ const projectsData = [
 		id: 5,
 		title: "SweetWeb",
 		description:
-			"L'Extension de navigateur cross-plateforme (Firefox et Chrome) pour rendre le web plus doux",
+			"Extension de navigateur crossplateforme (Firefox et Chrome) pour rendre le web plus doux",
 		image: "/images/projects/renduApp.png",
 		tag: ["All", "Web"],
 		gitUrl:
@@ -62,8 +62,7 @@ const projectsData = [
 	{
 		id: 6,
 		title: "The Alop's Adventure",
-		description:
-			"Le jeu vidéo regroupant aventure et space-invader codé en LUA.",
+		description: "Jeu d'aventure puis de space invader codé en LUA.",
 		image: "/images/projects/6.png",
 		tag: ["All", "Web"],
 		gitUrl:
