@@ -32,7 +32,7 @@ const projectsData = [
 		id: 3,
 		title: "Consonea",
 		description: "Création d'un site e-commerce de mobilier d'occasion",
-		image: "/images/projects/Consonea_2.png",
+		image: "/images/projects/",
 		tag: ["All", "Web"],
 		gitUrl:
 			"https://github.com/LaureSaintAntonin/plateforme-de-meubles-consonea",
@@ -64,7 +64,7 @@ const projectsData = [
 		title: "The Alop's Adventure",
 		description:
 			"Le jeu vidéo regroupant aventure et space-invader codé en LUA.",
-		image: "/images/projects/Boss_Alops.png",
+		image: "/images/projects/6.png",
 		tag: ["All", "Web"],
 		gitUrl:
 			"https://github.com/LaureSaintAntonin/projet-collectif---pico-8-alop-s-crew",
