@@ -33,7 +33,7 @@ const HeroSection = () => {
 								1000,
 								"Mobile Developer",
 								1000,
-								"Software Developer",
+								"UI/UX Designer",
 								1000,
 							]}
 							wrapper="span"
@@ -44,10 +44,10 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
 						{/* Paragraphe de description avec une taille de texte adaptative. Le texte est stylisé avec une couleur personnalisée (#ABD7BE). */}
-						Bonjour et bienvenue sur mon portfolio.<br></br> Je suis
-						actuellement en reconversion, et je recherche pour terminer mon
-						parcours, un contrat de professionnalisation en alternance au rythme
-						de 4 jours en entreprise et le vendredi au centre de formation.
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+						totam voluptates velit sint corrupti architecto molestiae accusamus
+						fuga temporibus amet ad, eius reprehenderit ratione. Quis tenetur
+						explicabo id quas illum!
 					</p>
 				</motion.div>
 				{/* Deuxième colonne contenant les boutons */}
