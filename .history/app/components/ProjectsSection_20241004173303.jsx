@@ -43,7 +43,7 @@ const projectsData = [
 		title: "Surf & Chill",
 		description:
 			"L'application qui recence les meilleurs spots de surf du monde !",
-		image: "/images/projects/maquettesurf_chill.png",
+		image: "/images/projects/4.png",
 		tag: ["All", "Mobile"],
 		gitUrl: "https://github.com/LaureSaintAntonin/Surf-Chill",
 		previewUrl: "/",

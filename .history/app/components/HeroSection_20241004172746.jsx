@@ -88,7 +88,7 @@ const HeroSection = () => {
 						{/* Conteneur circulaire (bordures arrondies) avec une taille variable selon la taille de l'écran. Le fond est de couleur gris foncé. */}
 
 						<Image
-							src="/images/hero-image.png"
+							src="/images/Me-removebg-preview.png"
 							alt="hero image"
 							className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 							width={300}

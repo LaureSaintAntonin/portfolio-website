@@ -29,11 +29,11 @@ const HeroSection = () => {
 							sequence={[
 								"Laure", // Animation pour afficher successivement différents titres.
 								1000, // Temps d'attente (1000ms = 1 seconde) avant de changer.
-								"Web Developper",
+								"Web Developer",
 								1000,
-								"Mobile Developper",
+								"Mobile Developer",
 								1000,
-								"Software Developper",
+								"Software Developer",
 								1000,
 							]}
 							wrapper="span"
@@ -48,7 +48,7 @@ const HeroSection = () => {
 						actuellement en reconversion, et je recherche pour terminer mon
 						parcours, un{" "}
 						<a
-							className="text-pink-500"
+							className="text-pink-600"
 							href="https://travail-emploi.gouv.fr/contrats-de-professionnalisation"
 						>
 							contrat de professionnalisation en alternance

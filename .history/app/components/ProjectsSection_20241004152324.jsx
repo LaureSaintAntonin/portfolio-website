@@ -23,7 +23,7 @@ const projectsData = [
 		title: "Loventoutou",
 		description:
 			"Application de rencontre pour éleveurs canins 2.0 réalisé en Django 5(python)",
-		image: "/images/projects/tinderToutouLogo_v2.png",
+		image: "/images/projects/2.png",
 		tag: ["All", "Web"],
 		gitUrl: "https://github.com/LaureSaintAntonin/LovenToutou",
 		previewUrl: "/",
@@ -43,7 +43,7 @@ const projectsData = [
 		title: "Surf & Chill",
 		description:
 			"L'application qui recence les meilleurs spots de surf du monde !",
-		image: "/images/projects/maquettesurf_chill.png",
+		image: "/images/projects/4.png",
 		tag: ["All", "Mobile"],
 		gitUrl: "https://github.com/LaureSaintAntonin/Surf-Chill",
 		previewUrl: "/",

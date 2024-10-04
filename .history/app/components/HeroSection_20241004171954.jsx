@@ -29,11 +29,11 @@ const HeroSection = () => {
 							sequence={[
 								"Laure", // Animation pour afficher successivement différents titres.
 								1000, // Temps d'attente (1000ms = 1 seconde) avant de changer.
-								"Web Developper",
+								"Web Developer",
 								1000,
-								"Mobile Developper",
+								"Mobile Developer",
 								1000,
-								"Software Developper",
+								"Software Developer",
 								1000,
 							]}
 							wrapper="span"
