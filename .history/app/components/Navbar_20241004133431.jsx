@@ -43,11 +43,11 @@ const Navbar = () => {
 
 				<Link
 					href={"/"}
-					className="text-1xl md:text-2xl text-white font-semibold"
+					className="text-2xl md:text-5xl text-white font-semibold"
 				>
-					WebVision
+					LOGO
 				</Link>
-				{/* Lien vers la page d'accueil avec le texte "WebVision", stylisé en blanc avec une taille de police ajustable (2xl sur mobile, 5xl sur écrans plus grands). */}
+				{/* Lien vers la page d'accueil avec le texte "LOGO", stylisé en blanc avec une taille de police ajustable (2xl sur mobile, 5xl sur écrans plus grands). */}
 
 				<div className="mobile-menu block md:hidden">
 					{/* Cette div contient le bouton pour afficher ou masquer le menu sur mobile. Elle est visible uniquement sur mobile (`block md:hidden`). */}

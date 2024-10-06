@@ -11,7 +11,7 @@ const Footer = () => {
 				{/* Conteneur avec du padding (espace intérieur) de 12 unités. */}
 				{/* Utilisation de `flex` pour disposer les éléments horizontalement et `justify-between` pour les espacer également entre eux. */}
 
-				<span>WebVision</span>
+				<span>LOGO</span>
 				{/* Placeholder pour un logo ou un texte représentant le logo du site. */}
 
 				<p className="text-slate-700">All rights reserved.</p>
