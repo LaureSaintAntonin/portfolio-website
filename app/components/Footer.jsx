@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
 	// Déclaration du composant fonctionnel `Footer`, qui représente le pied de page du site.
@@ -11,7 +12,12 @@ const Footer = () => {
 				{/* Conteneur avec du padding (espace intérieur) de 12 unités. */}
 				{/* Utilisation de `flex` pour disposer les éléments horizontalement et `justify-between` pour les espacer également entre eux. */}
 
-				<span>WebVision</span>
+				<Image
+					src="/images/LSA_WebVision2.png"
+					alt="Logo WebVision"
+					width={150}
+					height={325}
+				></Image>
 				{/* Placeholder pour un logo ou un texte représentant le logo du site. */}
 
 				<p className="text-slate-700">All rights reserved.</p>

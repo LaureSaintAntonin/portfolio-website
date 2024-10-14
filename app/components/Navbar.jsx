@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -41,12 +42,13 @@ const Navbar = () => {
 				{/* Conteneur flex qui permet de répartir les éléments de la navigation. 
 				Les éléments sont centrés verticalement (`items-center`) et distribués avec `justify-between`. */}
 
-				<Link
-					href={"/"}
-					className="text-1xl md:text-2xl text-white font-semibold"
-				>
-					WebVision
-				</Link>
+				<Image
+					src="/images/LSA_WebVision2.png"
+					alt="Logo WebVision"
+					// className="text-1xl md:text-2xl text-white font-semibold"
+					width={150}
+					height={325}
+				></Image>
 				{/* Lien vers la page d'accueil avec le texte "WebVision", stylisé en blanc avec une taille de police ajustable (2xl sur mobile, 5xl sur écrans plus grands). */}
 
 				<div className="mobile-menu block md:hidden">
