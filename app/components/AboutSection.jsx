@@ -11,8 +11,8 @@ import TabButton from "./TabButton";
 // Déclaration de la constante TAB_DATA qui contient les données des différents onglets (Skills, Education, Experiences).
 const TAB_DATA = [
 	{
-		title: "Skills", // Titre de l'onglet.
-		id: "skills", // Identifiant unique pour cet onglet.
+		title: "Hard Skills", // Titre de l'onglet.
+		id: "Hskills", // Identifiant unique pour cet onglet.
 		// Contenu qui sera affiché quand l'onglet "Skills" sera actif.
 		content: (
 			<ul className="list-disc pl-2">
@@ -21,8 +21,24 @@ const TAB_DATA = [
 				<li>SQL // MySQL // PostgreSQL // SQLite</li>
 				<li>Kotlin</li>
 				<li>PHP // Laravel</li>
-				{/* <li></li>
-				<li></li> */}
+				<li>Curiosité technique, technologique</li>
+				<li>Formation continue, veille technique</li>
+			</ul>
+		),
+	},
+	{
+		title: "Soft Skills", // Titre de l'onglet.
+		id: "Sskills", // Identifiant unique pour cet onglet.
+		// Contenu qui sera affiché quand l'onglet "Skills" sera actif.
+		content: (
+			<ul className="list-disc pl-2">
+				<li>Travail en équipe</li>
+				<li>Résolution de problèmes</li>
+				<li>Gestion des priorités</li>
+				<li>Prise de décision rapide</li>
+				<li>Capacité d&aposadaptation</li>
+				<li>Polyvalence, réactivité, autonomie</li>
+				<li>Aime être challengée</li>
 			</ul>
 		),
 	},
@@ -58,7 +74,7 @@ const TAB_DATA = [
 const AboutSection = () => {
 	// Utilisation du hook useState pour gérer l'état de l'onglet sélectionné.
 	// Par défaut, l'onglet sélectionné est "skills".
-	const [tab, setTab] = useState("skills");
+	const [tab, setTab] = useState("Hskills");
 
 	// Utilisation de `useTransition` pour marquer les changements d'état comme "transition".
 	// Cela permet à React de différer les mises à jour non urgentes pour améliorer la réactivité.
@@ -90,19 +106,27 @@ const AboutSection = () => {
 						Après de nombreuses années dans le secteur médical, j&apos;ai décidé
 						de changer de direction et de faire une reconversion pour devenir
 						développeuse web/logiciel.<br></br>Ici, vous trouverez mes
-						compétences techniques, mes expériences, ainsi que mes projets
-						personnels et de groupe.
+						compétences techniques, mes compétences humaines, mes expériences,
+						ainsi que mes projets personnels et de groupe.
 					</p>
 
 					{/* Zone de sélection des onglets avec les boutons */}
 					<div className="flex flex-row mt-8">
-						{/* Bouton pour l'onglet "Skills" */}
+						{/* Bouton pour l'onglet "HSkills" */}
 						<TabButton
-							selectTab={() => handleTabChange("skills")} // Déclenche la fonction de changement d'onglet.
-							active={tab === "skills"} // Le bouton est actif si l'onglet actuel est "skills".
+							selectTab={() => handleTabChange("Hskills")} // Déclenche la fonction de changement d'onglet.
+							active={tab === "Hskills"} // Le bouton est actif si l'onglet actuel est "skills".
 						>
 							{" "}
-							Skills{" "}
+							Hard Skills{" "}
+						</TabButton>
+						{/* Bouton pour l'onglet "Sskills" */}
+						<TabButton
+							selectTab={() => handleTabChange("Sskills")} // Déclenche la fonction de changement d'onglet.
+							active={tab === "Sskills"} // Le bouton est actif si l'onglet actuel est "skills".
+						>
+							{" "}
+							Soft Skills{" "}
 						</TabButton>
 
 						{/* Bouton pour l'onglet "Education" */}

@@ -11,22 +11,20 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
 	{
-		metric: "Projects",
-		value: "125",
-		postfix: "+",
+		metric: "Axe Nantes Cholet",
+		value: "44",
 	},
 	{
-		prefix: "~",
-		metric: "Users",
-		value: "125000",
+		metric: "Vehicule avec",
+		value: "1",
 	},
 	{
-		metric: "Awards",
-		value: "125",
+		value: "1",
+		metric: "Permis B depuis",
 	},
 	{
-		metric: "Years",
-		value: "125",
+		metric: "ans",
+		value: "25",
 	},
 ];
 
