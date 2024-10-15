@@ -69,9 +69,9 @@ const HeroSection = () => {
 					{/* Bouton "Download CV" */}
 					<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 hover:bg-slate-800 text-white mt-3">
 						<span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-							{/* <a href="/CV.pdf" download> */}
-							Download
-							{/* </a> */}
+							<a href="/LaureSaintAntonin_.pdf" download>
+								Download
+							</a>
 							{/* Ce bouton contient un `span` interne avec des bordures arrondies et un effet de survol qui change la couleur de fond. */}
 						</span>
 					</button>
