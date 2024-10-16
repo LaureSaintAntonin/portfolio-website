@@ -36,7 +36,7 @@ const TAB_DATA = [
 				<li>Résolution de problèmes</li>
 				<li>Gestion des priorités</li>
 				<li>Prise de décision rapide</li>
-				<li>Capacité d&aposadaptation</li>
+				<li>Capacité d&apos;adaptation</li>
 				<li>Polyvalence, réactivité, autonomie</li>
 				<li>Aime être challengée</li>
 			</ul>
