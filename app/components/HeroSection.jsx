@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+
 // Importation du composant `TypeAnimation` et 'motion' qui permet d'afficher un texte avec un effet de machine à écrire.
 
 const HeroSection = () => {
@@ -61,12 +63,12 @@ const HeroSection = () => {
 				<div className="col-span-3 place-self-center mt-4 lg:mt-0">
 					{/* La colonne occupe 5 colonnes sur 12 pour les écrans larges et centre ses éléments. */}
 					{/* Bouton "Hire Me" */}
-					<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white">
-						<span href="/images/WhatsappIcon.png">
+					<Link href="#contact">
+						<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white">
 							Hire Me
 							{/* Bouton avec un gradient de couleur bleu-violet-rose, du padding, et un texte blanc. Pour les petits écrans, il occupe toute la largeur, mais s'ajuste sur les plus grands. */}
-						</span>
-					</button>
+						</button>
+					</Link>
 
 					{/* Bouton "Download CV" */}
 					<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 hover:bg-slate-800 text-white mt-3">
