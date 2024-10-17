@@ -1,3 +1,4 @@
+"use client";
 import HeroSection from "./components/HeroSection"; // Importation de la section Hero (présentation principale de la page).
 import Navbar from "./components/Navbar"; // Importation de la barre de navigation (header).
 import AboutSection from "./components/AboutSection"; // Importation de la section À propos.

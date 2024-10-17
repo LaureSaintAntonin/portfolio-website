@@ -29,11 +29,11 @@ const HeroSection = () => {
 							sequence={[
 								"Laure", // Animation pour afficher successivement différents titres.
 								1000, // Temps d'attente (1000ms = 1 seconde) avant de changer.
-								"Web Developper",
+								"Web/Mobile",
 								1000,
-								"Mobile Developper",
+								"FullStack",
 								1000,
-								"Software Developper",
+								"Developper",
 								1000,
 							]}
 							wrapper="span"
@@ -62,14 +62,16 @@ const HeroSection = () => {
 					{/* La colonne occupe 5 colonnes sur 12 pour les écrans larges et centre ses éléments. */}
 					{/* Bouton "Hire Me" */}
 					<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white">
-						Hire Me
-						{/* Bouton avec un gradient de couleur bleu-violet-rose, du padding, et un texte blanc. Pour les petits écrans, il occupe toute la largeur, mais s'ajuste sur les plus grands. */}
+						<span href="/images/WhatsappIcon.png">
+							Hire Me
+							{/* Bouton avec un gradient de couleur bleu-violet-rose, du padding, et un texte blanc. Pour les petits écrans, il occupe toute la largeur, mais s'ajuste sur les plus grands. */}
+						</span>
 					</button>
 
 					{/* Bouton "Download CV" */}
 					<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 hover:bg-slate-800 text-white mt-3">
 						<span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-							<a href="/LaureSaintAntonin_.pdf" download>
+							<a href="/LaureSaintAntonin2.pdf" download>
 								Download
 							</a>
 							{/* Ce bouton contient un `span` interne avec des bordures arrondies et un effet de survol qui change la couleur de fond. */}

@@ -161,7 +161,9 @@ const Footer = () => {
 				</svg>
 				{/* Placeholder pour un logo ou un texte représentant le logo du site. */}
 
-				<p className="text-slate-700">All rights reserved.</p>
+				<p className="text-slate-700">
+					Developped by LSA Web Vision, All rights reserved.
+				</p>
 				{/* Texte affichant les droits réservés, avec une couleur de texte gris ardoise. */}
 			</div>
 		</footer>
