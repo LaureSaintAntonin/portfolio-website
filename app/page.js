@@ -6,6 +6,7 @@ import ProjectsSection from "./components/ProjectsSection"; // Importation de la
 import EmailSection from "./components/EmailSection"; // Importation de la section pour le formulaire de contact par email.
 import Footer from "./components/Footer"; // Importation du pied de page.
 import AchievementsSection from "./components/AchievementsSection";
+import Zoe from "./components/Zoe";
 
 export default function Home() {
 	// Exportation par défaut de la fonction `Home`, qui définit la page d'accueil du site.
@@ -20,6 +21,7 @@ export default function Home() {
 				<HeroSection />
 				<AchievementsSection />
 				<AboutSection />
+				<Zoe />
 				<ProjectsSection />
 				<EmailSection />
 			</div>

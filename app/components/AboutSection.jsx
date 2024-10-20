@@ -102,7 +102,7 @@ const AboutSection = () => {
 
 				{/* Section texte, contenant le titre et la description "About Me" */}
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-					<h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+					<h2 className="text-4xl font-bold text-white mb-4">A propos</h2>
 					<p className="text-base lg:text-lg">
 						Après de nombreuses années dans le secteur médical, j&apos;ai décidé
 						de changer de direction et de faire une reconversion pour devenir
@@ -136,7 +136,7 @@ const AboutSection = () => {
 							active={tab === "education"} // Bouton actif si l'onglet est "education".
 						>
 							{" "}
-							Education{" "}
+							Formations{" "}
 						</TabButton>
 
 						{/* Bouton pour l'onglet "Experiences & Certifications" */}
@@ -145,7 +145,7 @@ const AboutSection = () => {
 							active={tab === "experiences & certifications"} // Bouton actif si l'onglet est "experiences & certifications".
 						>
 							{" "}
-							Experiences & Certifications{" "}
+							Certifications{" "}
 						</TabButton>
 					</div>
 

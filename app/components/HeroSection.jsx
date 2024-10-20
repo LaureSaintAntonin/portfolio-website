@@ -59,6 +59,12 @@ const HeroSection = () => {
 						au rythme de 4 jours en entreprise et le vendredi au centre de
 						formation. */}
 					</p>
+					<Image
+						src={"/images/Zoe3.png"}
+						alt="Zoé l'araignée"
+						width={150}
+						height={150}
+					/>
 				</motion.div>
 				{/* Deuxième colonne contenant les boutons */}
 				<div className="col-span-3 place-self-center mt-4 lg:mt-0">

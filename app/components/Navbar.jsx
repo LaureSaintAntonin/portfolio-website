@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -7,11 +8,15 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
 	{
-		title: "About Me",
+		title: "A propos",
 		path: "#about",
 	},
 	{
-		title: "My Projects",
+		title: "Zoé l'Araignée",
+		path: "#zoe",
+	},
+	{
+		title: "Mes Projets",
 		path: "#projects",
 	},
 	{
@@ -27,6 +32,14 @@ const Navbar = () => {
 		<nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] opacity-90">
 			<div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
 				{/* Logo SVG inséré ici */}
+				{/* <div>
+					<Image
+						src={"/images/Zoe4.png"}
+						alt="Zoé l'araignée"
+						width={100}
+						height={100}
+					/>
+				</div> */}
 				<svg viewBox="0 0 300 100" width="150" height="50">
 					<defs>
 						<linearGradient
