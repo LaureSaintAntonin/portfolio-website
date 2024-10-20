@@ -18,7 +18,7 @@ const WhatsAppButton = () => {
 				onClick={handleClick}
 				className="bg-rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
 			>
-				Contact me on WhatsApp
+				Contact me now !
 			</button>
 		</div>
 	);

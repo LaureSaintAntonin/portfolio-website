@@ -18,7 +18,8 @@ const TAB_DATA = [
 			<ul className="list-disc pl-2">
 				<li>React.js // Nodes.js</li>
 				<li>Python // Django</li>
-				<li>SQL // MySQL // PostgreSQL // SQLite</li>
+				<li>SQL</li>
+				<li>MySQL // PostgreSQL // SQLite</li>
 				<li>Kotlin</li>
 				<li>PHP // Laravel</li>
 				<li>Curiosité technique, technologique</li>

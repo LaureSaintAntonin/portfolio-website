@@ -46,17 +46,18 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
 						{/* Paragraphe de description avec une taille de texte adaptative. Le texte est stylisé avec une couleur personnalisée (#ABD7BE). */}
-						Bonjour et bienvenue sur mon portfolio.<br></br> Je suis
-						actuellement en reconversion, et je recherche pour terminer mon
-						parcours, un{" "}
-						<a
+						Bonjour et bienvenue sur mon portfolio.<br></br> En 2023 J&apos;ai
+						décidé de me reconvertir, et maintenant je recherche une entreprise
+						qui me permettra de continuer à progresser dans ce métier
+						passionnant.
+						{/* {" "} <a
 							className="text-pink-500"
 							href="https://travail-emploi.gouv.fr/contrats-de-professionnalisation"
 						>
 							contrat de professionnalisation en alternance
 						</a>{" "}
 						au rythme de 4 jours en entreprise et le vendredi au centre de
-						formation.
+						formation. */}
 					</p>
 				</motion.div>
 				{/* Deuxième colonne contenant les boutons */}
