@@ -46,15 +46,14 @@ const EmailSection = () => {
 			className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
 		>
 			<div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-			<div className="z-10">
+			<div className="">
 				<h5 className="text-xl font-bold text-white my-2">
-					Let&apos;s Talk Together
+					Faisons connaissance !
 				</h5>
 				<p className="text-[#ADB7BE] mb-4 max-w-md">
 					{" "}
-					I&apos;m currently looking for new opportunities, my inbox is always
-					open. <br></br>You can contact me now on LinkedIn, on whatsapp or by
-					email.
+					Je suis à l&apos;écoute de nouvelles opportunités !<br></br> Contactez
+					moi sur LinkedIn, WhatsApp ou par Email !
 				</p>
 				<div className="socials flex flex-row gap-2">
 					<Link href="https://www.linkedin.com/in/lauresaintantonin/">
@@ -68,8 +67,8 @@ const EmailSection = () => {
 				<Image
 					src={"/images/Zoe3.png"}
 					alt="Zoé l'araignée"
-					width={150}
-					height={150}
+					width={100}
+					height={100}
 				/>
 			</div>
 			<div>
@@ -84,7 +83,7 @@ const EmailSection = () => {
 								htmlFor="email"
 								className="text-white block mb-2 text-sm font-medium"
 							>
-								Your email
+								Votre email
 							</label>
 							<input
 								name="email"
@@ -100,7 +99,7 @@ const EmailSection = () => {
 								htmlFor="subject"
 								className="text-white block text-sm mb-2 font-medium"
 							>
-								Subject
+								Sujet
 							</label>
 							<input
 								name="subject"
@@ -108,7 +107,7 @@ const EmailSection = () => {
 								id="subject"
 								required
 								className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-								placeholder="Just saying hi"
+								placeholder="Juste dire 'Bonjour'"
 							/>
 						</div>
 						<div className="mb-6">
@@ -122,14 +121,14 @@ const EmailSection = () => {
 								name="message"
 								id="message"
 								className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-								placeholder="Hi Laure, Let's talk about..."
+								placeholder="Salut Laure, parlons de..."
 							/>
 						</div>
 						<button
 							type="submit"
 							className="bg-rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
 						>
-							Send Message
+							Envoyer
 						</button>
 					</form>
 				)}

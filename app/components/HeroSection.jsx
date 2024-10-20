@@ -21,6 +21,14 @@ const HeroSection = () => {
 				>
 					{/* La colonne occupe 5 colonnes sur 12 pour les écrans larges. Le texte est centré sur les petits écrans et aligné à gauche sur les écrans plus grands. */}
 					<h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+						<div>
+							<Image
+								src={"/images/Zoe3.png"}
+								alt="Zoé l'araignée"
+								width={90}
+								height={90}
+							/>
+						</div>
 						{/* Titre principal avec une taille de texte adaptative (4xl à 6xl), et une police extra-gras. */}
 						<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
 							Hello there, I&apos;m{" "}
@@ -46,10 +54,9 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
 						{/* Paragraphe de description avec une taille de texte adaptative. Le texte est stylisé avec une couleur personnalisée (#ABD7BE). */}
-						Bonjour et bienvenue sur mon portfolio.<br></br> En 2023 J&apos;ai
-						décidé de me reconvertir, et maintenant je recherche une entreprise
-						qui me permettra de continuer à progresser dans ce métier
-						passionnant.
+						Bonjour et bienvenue sur mon portfolio.<br></br> En 2023, j&apos;ai
+						décidé de me reconvertir. Maintenant je recherche une entreprise qui
+						me permettra de continuer à progresser dans ce métier passionnant.
 						{/* {" "} <a
 							className="text-pink-500"
 							href="https://travail-emploi.gouv.fr/contrats-de-professionnalisation"
@@ -59,12 +66,6 @@ const HeroSection = () => {
 						au rythme de 4 jours en entreprise et le vendredi au centre de
 						formation. */}
 					</p>
-					<Image
-						src={"/images/Zoe3.png"}
-						alt="Zoé l'araignée"
-						width={150}
-						height={150}
-					/>
 				</motion.div>
 				{/* Deuxième colonne contenant les boutons */}
 				<div className="col-span-3 place-self-center mt-4 lg:mt-0">
@@ -72,7 +73,7 @@ const HeroSection = () => {
 					{/* Bouton "Hire Me" */}
 					<Link href="#contact">
 						<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-600 via-purple-500 to bg-pink-500 text-white">
-							Hire Me
+							Recrutez Moi
 							{/* Bouton avec un gradient de couleur bleu-violet-rose, du padding, et un texte blanc. Pour les petits écrans, il occupe toute la largeur, mais s'ajuste sur les plus grands. */}
 						</button>
 					</Link>
