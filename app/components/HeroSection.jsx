@@ -21,7 +21,7 @@ const HeroSection = () => {
 				>
 					{/* La colonne occupe 5 colonnes sur 12 pour les écrans larges. Le texte est centré sur les petits écrans et aligné à gauche sur les écrans plus grands. */}
 					<h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
-						<div>
+						<div className>
 							<Image
 								src={"/images/Zoe3.png"}
 								alt="Zoé l'araignée"
@@ -55,16 +55,9 @@ const HeroSection = () => {
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
 						{/* Paragraphe de description avec une taille de texte adaptative. Le texte est stylisé avec une couleur personnalisée (#ABD7BE). */}
 						Bonjour et bienvenue sur mon portfolio.<br></br> En 2023, j&apos;ai
-						décidé de me reconvertir. Maintenant je recherche une entreprise qui
-						me permettra de continuer à progresser dans ce métier passionnant.
-						{/* {" "} <a
-							className="text-pink-500"
-							href="https://travail-emploi.gouv.fr/contrats-de-professionnalisation"
-						>
-							contrat de professionnalisation en alternance
-						</a>{" "}
-						au rythme de 4 jours en entreprise et le vendredi au centre de
-						formation. */}
+						décidé de quitter mon travail et de me reconvertir. Maintenant je
+						recherche une entreprise qui me permettra de continuer à progresser
+						dans ce métier passionnant.
 					</p>
 				</motion.div>
 				{/* Deuxième colonne contenant les boutons */}

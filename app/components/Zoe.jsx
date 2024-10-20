@@ -16,7 +16,9 @@ const Zoe = () => {
 						Vous me trouverez un peu partout sur le site de Laure.<br></br>
 						Quelque chose se prépare et j&apos;en suis l&apos;instigatrice.
 					</p>
-					<div className="text-2xl font-bold text-white mt-4">A suivre...</div>
+					<div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mt-4">
+						A suivre...
+					</div>
 				</div>
 
 				{/* Image à droite sur les grands écrans et en-dessous sur mobile */}
@@ -24,8 +26,8 @@ const Zoe = () => {
 					className="md:order-2"
 					src={"/images/Zoe4.png"}
 					alt="Zoé l'araignée"
-					width={400}
-					height={400}
+					width={500}
+					height={500}
 				/>
 			</div>
 		</section>
