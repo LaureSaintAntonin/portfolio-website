@@ -7,6 +7,8 @@ import EmailSection from "./components/EmailSection"; // Importation de la secti
 import Footer from "./components/Footer"; // Importation du pied de page.
 import AchievementsSection from "./components/AchievementsSection";
 import Zoe from "./components/Zoe";
+import { init } from "@emailjs/browser";
+init("o8cDDD-rS2JDwfPe6");
 
 export default function Home() {
 	// Exportation par défaut de la fonction `Home`, qui définit la page d'accueil du site.

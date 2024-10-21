@@ -171,7 +171,7 @@ const Navbar = () => {
 						transform="translate(80, 60) scale(0.2)"
 						fill="none"
 						stroke="url(#blueVioletPink)"
-						stroke-width="8"
+						strokeWidth="8"
 					>
 						<path d="M0 0 V80 H40" />
 						<path d="M60 0 H100 V35 H60 V80 H100" />

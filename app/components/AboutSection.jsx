@@ -44,7 +44,7 @@ const TAB_DATA = [
 		),
 	},
 	{
-		title: "Education",
+		title: "Formations",
 		id: "education",
 		content: (
 			<ul className="list-disc pl-2">
@@ -61,8 +61,8 @@ const TAB_DATA = [
 		),
 	},
 	{
-		title: "Experiences & Certifications",
-		id: "experiences & certifications",
+		title: "Certifications",
+		id: "certifications",
 		content: (
 			<ul className="list-disc pl-2">
 				<li>DTek Learn</li>
@@ -141,8 +141,8 @@ const AboutSection = () => {
 
 						{/* Bouton pour l'onglet "Experiences & Certifications" */}
 						<TabButton
-							selectTab={() => handleTabChange("experiences & certifications")} // Idem pour "Experiences & Certifications".
-							active={tab === "experiences & certifications"} // Bouton actif si l'onglet est "experiences & certifications".
+							selectTab={() => handleTabChange("certifications")} // Idem pour "Experiences & Certifications".
+							active={tab === "certifications"} // Bouton actif si l'onglet est "experiences & certifications".
 						>
 							{" "}
 							Certifications{" "}

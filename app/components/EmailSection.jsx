@@ -1,11 +1,11 @@
 "use client";
 import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import GithubIcon from "../../public/images/github-icon.svg";
 import LinkedinIcon from "../../public/images/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import WhatsAppButton from "./WhatsAppButton";
-import emailjs from "@emailjs/browser";
 
 const EmailSection = () => {
 	const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -16,18 +16,18 @@ const EmailSection = () => {
 
 		emailjs
 			.sendForm(
-				process.env.REACT_APP_EMAILJS_SERVICE_ID,
-				process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+				"service_w0u396u",
+				"template_1apcnqo",
 				form.current,
-				process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+				"o8cDDD-rS2JDwfPe6"
 			)
 			.then(
 				result => {
-					console.log("Message sent.", result.text);
+					console.log("Message sent", result.text);
 					setEmailSubmitted(true);
 				},
 				error => {
-					console.log("FAILED...", error.text);
+					console.log("Erreur", error.text);
 				}
 			);
 	};
@@ -84,6 +84,7 @@ const EmailSection = () => {
 								required
 								className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
 								placeholder="recruter@google.com"
+								autoComplete="email"
 							/>
 						</div>
 						<div className="mb-6">
@@ -100,6 +101,7 @@ const EmailSection = () => {
 								required
 								className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
 								placeholder="Juste dire 'Bonjour'"
+								autoComplete="off"
 							/>
 						</div>
 						<div className="mb-6">
@@ -114,6 +116,7 @@ const EmailSection = () => {
 								id="message"
 								className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
 								placeholder="Salut Laure, parlons de..."
+								autoComplete="off"
 							/>
 						</div>
 						<button
