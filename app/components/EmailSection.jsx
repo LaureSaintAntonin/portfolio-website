@@ -57,7 +57,7 @@ const EmailSection = () => {
 					<WhatsAppButton />
 				</div>
 				<Image
-					src={"/images/Zoe3.png"}
+					src={"/images/Zoe.png"}
 					alt="Zoé l'araignée"
 					width={100}
 					height={100}

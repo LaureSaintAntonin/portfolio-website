@@ -23,7 +23,7 @@ const HeroSection = () => {
 					<h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
 						<div className>
 							<Image
-								src={"/images/Zoe3.png"}
+								src={"/images/Zoe.png"}
 								alt="Zoé l'araignée"
 								width={90}
 								height={90}
@@ -95,7 +95,7 @@ const HeroSection = () => {
 						{/* Conteneur circulaire (bordures arrondies) avec une taille variable selon la taille de l'écran. Le fond est de couleur gris foncé. */}
 
 						<Image
-							src="/images/Pink_me.png"
+							src="/images/Pink_me1.png"
 							alt="hero image"
 							className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
 							width={300}
